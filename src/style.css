@@ -9,6 +9,12 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+  font-family: "acumin-pro-wide";
+}
+
+h1,
+h2 {
+  @apply font-semibold text-5xl;
 }
 
 a {
@@ -16,4 +22,7 @@ a {
 }
 a:hover {
   @apply text-[#535bf2];
+}
+p {
+  @apply p-5;
 }

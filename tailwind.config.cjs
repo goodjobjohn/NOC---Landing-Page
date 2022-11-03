@@ -3,9 +3,6 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
-      fontFamily: {
-        inter: ["Inter", "Avenir", "Helvetica", "Arial", "sans-serif"],
-      },
       dropShadow: {
         logo: "0 0 2em #646cffaa",
         "logo-tw": "0 0 2em #38bdf8aa",
