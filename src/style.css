@@ -11,18 +11,22 @@
   -webkit-text-size-adjust: 100%;
   font-family: "acumin-pro-wide";
 }
-
+body {
+  background-image: url("background.jpg");
+  background-position: center;
+  background-size: cover;
+}
 h1,
 h2 {
-  @apply font-semibold text-5xl;
+  @apply font-semibold text-5xl mb-[20px] uppercase;
 }
 
 a {
-  @apply font-medium text-[#646cff];
+  @apply font-medium;
 }
 a:hover {
-  @apply text-[#535bf2];
+  @apply text-[#be8d2e];
 }
 p {
-  @apply p-5;
+  @apply p-3;
 }
