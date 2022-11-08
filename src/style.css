@@ -11,7 +11,7 @@
   font-family: "acumin-pro-wide";
 }
 body {
-  background-image: url("background.jpg");
+  background-image: url("bg-image.jpg");
   background-position: center;
   background-size: cover;
 }
