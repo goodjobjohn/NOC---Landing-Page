@@ -11,9 +11,11 @@
   font-family: "acumin-pro-wide";
 }
 body {
-  background-image: url("bg-image.jpg");
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url("bg-image.jpg");
   background-position: center;
   background-size: cover;
+  background-color: linear-gradient(to right, #6DB3F2, #6DB3F2);
+  
 }
 h1,
 h2 {
